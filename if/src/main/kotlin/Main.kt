@@ -74,11 +74,45 @@ fun triDigit (num: Int) {
     }
     else println("NO")
 }
-
+//-------
 fun range1 (num: Int) {
-
+    if (num > -1 && num < 17) {
+        println("Принадлежит")
+    }
+    else println("Не принадлежит")
 }
 
 fun range2(num: Int) {
-    
+    if (num !in -3..7) {
+        println("Принадлежит")
+    }
+    else println("Не принадлежит")
+}
+
+fun rook(rook_x: Int, rook_y: Int, targ_x: Int, targ_y: Int) {
+
+}
+
+fun bishop(bish_x: Int, bish_y: Int, targ_x: Int, targ_y: Int) {
+
+}
+
+fun range3(num: Int){
+
+}
+
+fun weight(num: Int){
+
+}
+
+fun quadratic(a: Int, b: Int, c: Int){
+
+}
+
+fun dayCount(month: Int){
+
+}
+
+fun timeofYear(month: Int){
+
 }
